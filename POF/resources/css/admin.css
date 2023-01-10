@@ -1,0 +1,216 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.admin-view #admin-area {
+    min-height: 100vh;
+}
+
+.admin-view .admin-links {
+    background-color: #212529;
+    padding-right: 0px;
+
+}
+
+.admin-view .admin-links * {
+    background-color: #212529;
+}
+
+.admin-view .admin-links li {
+    color: #fff;
+    border: none;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.admin-view .admin-links li:hover {
+    background-color: #f0f2f5;
+}
+
+
+.admin-view .admin-links i {
+    color: goldenrod;
+}
+
+.admin-view .admin-links li a {
+    display: block;
+    color: #fff;
+    border-color: #fff;
+    text-decoration: #fff;
+    transition: opacity .5s;
+    padding: 10px;
+}
+
+.admin-view .admin-links li a:hover {
+    opacity: .7;
+}
+
+#header_top{
+    background: linear-gradient(to left,#646669, #212529);
+}
+
+#dataTableContainer input{
+    background-color: transparent;
+    border: none;
+}
+
+#dashboard_card{
+    text-decoration: none;
+    color:goldenrod ;
+}
+
+.navbar-toggler{
+    background-color:rgb(217, 157, 17) ;
+
+}
+
+#dashboard_card:hover{
+    opacity: .5;
+}
+
+#search_icon{
+    position: relative;
+    right: 30px;
+    margin-top: 10px;
+}
+
+.input_quantity{
+    background-color: transparent;
+    border: none;
+}
+
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.card .card-block:hover {
+    opacity: .7;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+#delete_item{
+    border: none;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 978px) {
+    .admin-view .admin-links {
+        width: 10%;
+    }
+
+    .admin-view .admin-links i {
+        font-size: 25PX;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .admin-view .admin-links span {
+        display: none;
+    }
+
+    .admin-view .admin-links .btn-group  {
+        display: none;
+    }
+
+    .nav_h{
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .admin-view .admin-links {
+        width: 15%;
+    }
+
+    .admin-view .admin-links i {
+        font-size: 25PX;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .admin-view .admin-links span {
+        display: none;
+    }
+
+    .admin-view .admin-links .btn-group  {
+        display: none;
+    }
+
+    .nav_h{
+        width: 85%;
+    }
+
+    .photo img{
+        display: none;
+    }
+
+    #cart{
+        margin-top: 0px !important;
+    }
+
+    .cost_item{
+        display: none;
+    }
+
+    .img_item img{
+        display: none;
+    }
+
+    .form_form{
+        width: 100% !important;
+    }
+
+    .had span{
+        font-size: 17px;
+        margin-top: 7px;
+    }
+
+    .had #delete_p{
+        display: none;
+    }
+
+    .off_selling{
+        width: 75% !important;
+    }
+
+    .td_transaction{
+        display: none;
+    }
+}
